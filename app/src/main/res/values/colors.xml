@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary colors for a lighter theme -->
+    <color name="primary_light">#81D4FA</color> <!-- Light Blue 200 -->
+    <color name="primary_light_variant">#4FC3F7</color> <!-- Light Blue 300 -->
+    <color name="on_primary_light">#FFFFFF</color>
+
+    <!-- Secondary/Accent colors -->
+    <color name="secondary_light">#FFCC80</color> <!-- Orange 200 -->
+    <color name="secondary_light_variant">#FFAB40</color> <!-- Orange 300 -->
+    <color name="on_secondary_light">#000000</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color> <!-- Dark Grey -->
+    <color name="text_secondary">#757575</color> <!-- Medium Grey -->
+
+    <!-- Background and surface colors -->
+    <color name="background_light">#F5F5F5</color> <!-- Grey 100 -->
+    <color name="surface_light">#FFFFFF</color> <!-- White for cards, etc. -->
+
+    <!-- Original colors (can be removed if not used elsewhere) -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,4 +26,26 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="primary_dark">#212121</color> <!-- Dark Grey (almost black) -->
+    <color name="primary_dark_variant">#000000</color> <!-- Black -->
+    <color name="on_primary_dark">#FFFFFF</color> <!-- White text -->
+
+    <color name="background_dark">#121212</color> <!-- Very Dark Grey -->
+    <color name="surface_dark">#1E1E1E</color> <!-- Darker Grey for cards/surfaces -->
+    <color name="on_surface_dark">#FFFFFF</color> <!-- White text on dark surfaces -->
+
+    <!-- Light Green Theme Colors -->
+    <color name="primary_light_green">#A5D6A7</color> <!-- Light Green 200 -->
+    <color name="primary_light_green_variant">#81C784</color> <!-- Light Green 300 -->
+    <color name="on_primary_light_green">#000000</color> <!-- Black text on green -->
+
+    <color name="secondary_light_green">#FFCC80</color> <!-- Orange 200 (reusing previous accent) -->
+    <color name="secondary_light_green_variant">#FFAB40</color> <!-- Orange 300 (reusing previous accent) -->
+    <color name="on_secondary_light_green">#000000</color>
+
+    <color name="background_light_green">#E8F5E9</color> <!-- Very Light Green -->
+    <color name="surface_light_green">#F1F8E9</color> <!-- Slightly off-white green for cards -->
+    <color name="on_surface_light_green">#212121</color> <!-- Dark text on light green surfaces -->
 </resources>

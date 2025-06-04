@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Word"
+        android:textColor="#000000"
         android:textSize="22sp"
         android:textStyle="bold" />
 
